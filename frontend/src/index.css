@@ -8,6 +8,26 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.flex-center {
+	@apply flex justify-center items-center;
+}
+
+.flex-between {
+	@apply flex justify-between items-center;
+}
+
+.flex-start {
+	@apply flex justify-center items-start;
+}
+
+.container {
+	@apply max-w-[1920px] w-full px-[120px] max-sm:px-5 mx-auto;
+}
+
+.top-nav-link {
+	@apply font-montserrat font-medium text-base leading-[125%] text-silver;
+}
+
 .section-title {
 	@apply font-philosopher font-bold text-[52px] leading-[110%];
 }
